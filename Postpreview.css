@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bigpost{
+    width:100%;
+    min-height:100vh;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:black;
+}
+
+
+
+.post{
+    width:100%;
+    min-height:100vh;
+    height:100%;
+    background-color:black;
+    padding-top:100px;
+    padding-left:400px;
+    display:block;
+    
+}
+
+.post h2{
+    color:white;
+    font-family:"Poppins";
+    padding-left:280px;
+    padding-bottom:50px;
+}
+
+
+.cord{
+    text-align:center;
+    background-color: aliceblue;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    width:800px;
+    color:black;
+    margin-bottom:100px;
+    border-radius:19px;
+}
+
+.cord-contents{
+    width:500px;
+}
+
+.cord-btn{
+    width:200px;
+    border:none;
+    height:35px;
+    background-color:black;
+    border-radius:19px;
+
+}
+
+.cord-btn .cordlink {
+    font-weight:500;
+    font-family:"Poppins";
+    color:white;
+    text-decoration:none;
+}
+
+
+
+.cord-contents h4{
+    flex-direction:column;
+    color:black;
+    padding-top:30px;
+    margin-bottom:30px;
+}
+
+.cord-contents h5{
+    color:black;
+    margin-bottom:30px;
+}
+
+.cord img{
+    width:500px;
+    height:200px;
+    border-radius: 19px 0px 0px 19px;
+}
+
+
+
+
+
+
+
+
+
+
+

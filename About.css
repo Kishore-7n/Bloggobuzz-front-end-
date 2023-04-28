@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather:ital,wght@1,300;1,700&family=Poppins:ital,wght@1,700&family=Roboto:ital@1&family=UnifrakturMaguntia&display=swap');
+
+
+.About-blog{
+    height:100vh;
+    font-size:25px;
+    padding-top:100px;
+    padding-left:55px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(200,0,41,1) 100%);
+    
+}
+
+.About-blog h1{
+    font-family:'Roboto';
+    text-align:center;
+    color:white;
+    text-shadow:2px 2px 5px black;  
+    font-weight: 800;
+    animation-name:fade;
+    animation-duration:4s;
+}
+
+.About-blog p{
+    color:white;
+    font-family:'Roboto';
+    line-height:40px;
+    margin-top:50px;
+    animation-name:fade;
+    animation-duration:3s;
+}
+
+@keyframes fade{
+    0%{
+        opacity:0;
+        margin-left:3em;
+    }
+    100%{
+        opacity:1;
+    }
+}
